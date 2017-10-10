@@ -22,9 +22,9 @@ This includes the following feature :
 
 # Screenshots
 
-![Image](https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/screenshots/bullhead_1_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/screenshots/bullhead_2_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/screenshots/bullhead_3_small.png)
+![Image](https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/screenshots/sailfish_1_small.png)
+![Image](https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/screenshots/sailfish_2_small.png)
+![Image](https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/screenshots/sailfish_3_small.png)
 
 # License
 
