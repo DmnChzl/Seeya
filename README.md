@@ -5,9 +5,13 @@ This is a tool for notifications on Android O (8.0).
 This includes the following feature :
 - Only hide the persistent notification "*running in background*"
 
-# Permission
+# Permissions
 
 - android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+
+# Dependencies
+
+- com.yarolegovich:lovely-dialog:1.0.7
 
 # QR Code
 

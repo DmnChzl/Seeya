@@ -20,6 +20,7 @@ package com.doomy.seeya
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
+import android.net.Uri
 import android.os.Bundle
 import android.os.Handler
 import android.preference.PreferenceManager
@@ -28,6 +29,7 @@ import android.support.v7.app.AppCompatActivity
 import android.view.MotionEvent
 import android.view.View
 import android.widget.ImageView
+import com.yarolegovich.lovelydialog.LovelyStandardDialog
 
 class MainActivity : AppCompatActivity(), View.OnTouchListener {
     private var mContext: Context? = null
@@ -42,6 +44,23 @@ class MainActivity : AppCompatActivity(), View.OnTouchListener {
 
         mContext = applicationContext
         mPreferences = PreferenceManager.getDefaultSharedPreferences(this)
+        mLogo = findViewById(R.id.vLogo) as ImageView
+        mLogo!!.setOnLongClickListener {
+            LovelyStandardDialog(this)
+                    .setTopColorRes(R.color.colorPrimary)
+                    .setButtonsColorRes(R.color.colorAccent)
+                    .setIcon(R.drawable.signature)
+                    .setTitle(R.string.about)
+                    .setMessage(R.string.info)
+                    .setPositiveButton(R.string.okay, null)
+                    .setNeutralButton(R.string.github) {
+                        val mIntent = Intent(Intent.ACTION_VIEW)
+                        mIntent.data = Uri.parse(getString(R.string.url))
+                        startActivity(mIntent)
+                    }
+                    .show()
+            false
+        }
         mAwesome = findViewById(R.id.vAwesome) as AwesomeView
         mAwesome!!.setOnTouchListener(this)
     }
