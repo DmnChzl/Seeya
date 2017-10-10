@@ -5,24 +5,24 @@ This is a tool for notifications on Android O (8.0).
 This includes the following feature :
 - Only hide the persistent notification "*running in background*"
 
-#Permission
+# Permission
 
 - android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
 
-#QR Code
+# QR Code
 
 <a href="https://play.google.com/store/apps/details?id=com.doomy.seeya">
   <img alt="QR Code Seeya"
        src="https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/images/qrcode.png" />
 </a>
 
-#Screenshots
+# Screenshots
 
 ![Image](https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/screenshots/bullhead_1_small.png)
 ![Image](https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/screenshots/bullhead_2_small.png)
 ![Image](https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/screenshots/bullhead_3_small.png)
 
-#License
+# License
 
     Copyright (C) 2017 Damien Chazoule
 
