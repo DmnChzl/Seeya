@@ -1,4 +1,4 @@
-![Image](https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/images/seeya.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Seeya/master/dev/images/seeya.png)
 
 This is a tool for notifications on Android O (8.0).
 
@@ -17,14 +17,14 @@ This includes the following feature :
 
 <a href="https://play.google.com/store/apps/details?id=com.doomy.seeya">
   <img alt="QR Code Seeya"
-       src="https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/images/qrcode.png" />
+       src="https://raw.githubusercontent.com/DmnChzl/Seeya/master/dev/images/qrcode.png" />
 </a>
 
 # Screenshots
 
-![Image](https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/screenshots/sailfish_1_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/screenshots/sailfish_2_small.png)
-![Image](https://raw.githubusercontent.com/MrDoomy/Seeya/master/dev/screenshots/sailfish_3_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Seeya/master/dev/screenshots/sailfish_1_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Seeya/master/dev/screenshots/sailfish_2_small.png)
+![Image](https://raw.githubusercontent.com/DmnChzl/Seeya/master/dev/screenshots/sailfish_3_small.png)
 
 # License
 
